@@ -3,7 +3,7 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 
-const API_KEY = "de58081c3fac5a571ea58e224312f282";
+const API_KEY = "you-api-key";
 
 function App() {
   const [city, setCity] = useState("Kigali");
